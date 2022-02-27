@@ -17,7 +17,7 @@ public class C05Comparison {
 		
 		System.out.println(3.14 <= 9.9);
 		System.out.println('A' <= 'B'); // unicode 비교
-//		System.out.println('A' + 0); A값이 궁금하다면 integer인 0과 더하거나 구글 검색
+//		System.out.println('A' + 0); A값이 궁금하다면 integer인 0과  더하거나 구글 검색
 		
 		// 실수 type 비교
 		double v4 = 0.1;
