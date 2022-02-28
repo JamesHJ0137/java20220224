@@ -17,6 +17,6 @@ public class C03LogicalNot {
 		System.out.println(b3); //false
 		
 		b3 = !b2;
-		System.out.println(b3); // true
+		System.out.println(b3); // truezzzz
 	}
 }
