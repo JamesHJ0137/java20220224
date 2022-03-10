@@ -13,14 +13,14 @@ public class Exercise09 {
 			System.out.println("----------------------------------------------------------");
 			System.out.println("1.학생수 | 2. 점수입력 | 3. 점수리스트 | 4. 분석 | 5. 종료");
 			System.out.println("----------------------------------------------------------");
-			System.out.println("선택> ");
+			System.out.print("선택> ");
 			
 			int selectNo = scanner.nextInt();
 			
 			if(selectNo == 1) {
 				//작성위치
 				
-				System.out.println("학생수> ");
+				System.out.print("학생수> ");
 				studentNum = scanner.nextInt();
 				scores = new int[studentNum];
 				
@@ -28,14 +28,14 @@ public class Exercise09 {
 				//작성위치
 				
 				for (int i = 0; i < studentNum; i++) {
-					System.out.println("scores[" + i + "]");
+					System.out.print("scores[" + i + "]");
 					scores[i] = scanner.nextInt();
 				}
 			} else if (selectNo == 3 ) {
 				
 				//작성위치
 				for (int i = 0; i < studentNum; i++) {
-				System.out.println("scores[" + i + "]" + scores[i]);
+				System.out.print("scores[" + i + "]" + scores[i]);
 				
 				}
 				
@@ -51,12 +51,13 @@ public class Exercise09 {
 				totalScore = scores[i];
 				sum += scores[i];
 				}
-				System.out.println("최고 점수> " + maxScore );
-				System.out.println("평균 점수> " + (double) sum / studentNum);
+				System.out.print("최고 점수> " + maxScore );
+				System.out.print("평균 점수> " + (double) sum / studentNum);
 			} else if (selectNo == 5 ) {
 				run = false;				
 			}
 		}
 		System.out.println("프로그램 종료");
+		scanner.close();
 	}
 }
