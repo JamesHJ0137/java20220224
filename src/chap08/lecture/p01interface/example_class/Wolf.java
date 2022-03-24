@@ -4,7 +4,7 @@ public class Wolf extends Canine {
 
 	@Override
 	public void cry() {
-		System.out.println("아아우~~");
+		System.out.println("아아우울~~~");
 	}
 
 }

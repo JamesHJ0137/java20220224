@@ -4,7 +4,7 @@ public class Tiger extends Feline {
 
 	@Override
 	public void cry() {
-		System.out.println("어흥~!");
+		System.out.println("어흥~!~!");
 	}
 
 }

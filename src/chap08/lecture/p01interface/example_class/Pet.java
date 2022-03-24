@@ -10,7 +10,7 @@ public interface Pet {
 		// default method:
 		// 인터페이스에 정의된 코드블럭이 있는
 		// 인스턴스 메소드
-		// 항상 public
+		// 모두 public
 		
 		System.out.println("반려동물이 앉습니다.");
 	}
