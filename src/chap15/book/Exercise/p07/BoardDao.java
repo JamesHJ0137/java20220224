@@ -1,6 +1,9 @@
 package chap15.book.Exercise.p07;
 
 import java.util.List;
+
+import chap15.book.Exercise.s150202.*;
+
 import java.util.ArrayList;
 
 public class BoardDao {
